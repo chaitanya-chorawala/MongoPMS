@@ -10,6 +10,6 @@ const productSchema = mongoose.Schema({
     SellerID : [{type : String}],
 });
 
-const productModel = mongoose.model("ProductManagementSystem",productSchema);
+const productModel = mongoose.model("Product",productSchema);
 
 module.exports = productModel;
